@@ -1,0 +1,46 @@
+body {
+  border: 3px solid black;
+}
+
+nav {
+  padding: 10px;
+}
+#desktopNav {
+  display: flex;
+  font-family: system-ui;
+  background: #f06d06;
+  color: white;
+  align-items: left;
+  border: 5px solid black;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container>div {
+  flex: 0 50%;
+  border: red solid;
+  box-sizing:border-box
+}
+
+.item {
+  background-color: pink;
+  border: solid black;
+  padding: 30px;
+  text-align: center;
+}
+
+.items,.itemss {
+  display: flex;
+  padding: 20px;
+  background-color: red;
+  justify-content: center;
+}
+
+.itemss {
+  justify-content: start;
+}
